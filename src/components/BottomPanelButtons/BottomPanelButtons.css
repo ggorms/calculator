@@ -1,0 +1,11 @@
+.bottomPanelButton {
+    width: 30%;
+    height: 75%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.equals {
+    background-color: rgb(231, 101, 21);
+}

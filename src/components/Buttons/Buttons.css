@@ -1,0 +1,50 @@
+.buttonsContainer {
+    /* background-color: red; */
+    height: 60%;
+    padding: 10px;
+    display: flex;
+}
+
+.panelGroup {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+}
+
+.numberButtons {
+    /* background-color: green; */
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.buttonPanelRight {
+    /* background-color: blue; */
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3%;
+    /* padding-bottom: 0.2%; */
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.buttonPanelBottom {
+    /* background-color: yellow; */
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 3%;
+}

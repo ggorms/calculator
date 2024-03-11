@@ -1,0 +1,9 @@
+.rightPanelButton {
+    border-radius: 8px;
+    width: 90%;
+    height: 19.5%;
+    margin: 10% 0;
+    background-color: rgb(236, 180, 49);
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
