@@ -64,3 +64,24 @@ p, h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: space-around;
 }
+
+@media screen and (min-width:750px) {
+  .calculatorBody {
+    width: 70%;
+    height: 80%;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .calculatorBody {
+    width: 70%;
+    height: 70%;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .calculatorBody {
+    width: 30%;
+    height: 80%;
+  }
+}
