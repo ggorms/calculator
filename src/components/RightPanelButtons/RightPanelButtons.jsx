@@ -11,9 +11,15 @@ function RightPanelButtons({ button, output, setOutput, calculate }) {
 
   return (
     <>
-      <button className="rightPanelButton" onClick={handleOperatorClick}>
-        {button}
-      </button>
+      {button === "/" ? (
+        <button className="rightPanelButton" onClick={handleOperatorClick}>
+          &#xF7;
+        </button>
+      ) : (
+        <button className="rightPanelButton" onClick={handleOperatorClick}>
+          {button}
+        </button>
+      )}
     </>
   );
 }

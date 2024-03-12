@@ -6,7 +6,7 @@
 }
 
 .screen {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(192, 187, 187);
     border-radius: 8px;
     height: 40%;
     width: 85%;
@@ -14,10 +14,11 @@
     padding: 10px;
     justify-content: flex-end;
     align-items: center;
-    box-shadow: 0 0 5px black;
+    box-shadow: 5px 5px 200px white;
     border: 1px solid black;
 }
 
 .output {
- font-size: x-large;
+ font-size: xxx-large;
+ font-family: "Honk", system-ui;
 }

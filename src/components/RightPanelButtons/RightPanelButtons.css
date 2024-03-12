@@ -3,7 +3,8 @@
     width: 90%;
     height: 19.5%;
     margin: 10% 0;
-    background-color: rgb(236, 180, 49);
-    box-shadow: 0 0 5px black;
+    background-color: rgb(10, 64, 240);
+    box-shadow: 2px 2px  5px grey;
     cursor: pointer;
+    border: none;
 }

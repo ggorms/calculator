@@ -1,6 +1,7 @@
 .calculatorTop {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 5%;
 }
 
@@ -8,6 +9,8 @@
     color: white;
     font-weight: bold;
     font-style: italic;
+    font-family: "Yellowtail", cursive;
+    font-size: xx-large;
     cursor: default;
 }
 

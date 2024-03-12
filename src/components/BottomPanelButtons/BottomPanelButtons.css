@@ -2,8 +2,10 @@
     width: 30%;
     height: 75%;
     border-radius: 8px;
-    box-shadow: 0 0 5px black;
+    box-shadow: 2px 2px  5px grey;
     cursor: pointer;
+    background-color: rgb(72, 72, 72);
+    border: none;
 }
 
 .equals {
