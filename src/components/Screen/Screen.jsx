@@ -1,10 +1,12 @@
 import "./Screen.css";
 
-function Screen() {
+function Screen({ output }) {
   return (
     <div className="screenContainer">
       <div className="screen">
-        <h3 className="output">0000000.000000</h3>
+        <h3 className="output">
+          {output.num2 === "0" ? output.num1 : output.num2}
+        </h3>
       </div>
     </div>
   );

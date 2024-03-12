@@ -1,9 +1,14 @@
 import "./ClearButton.css";
 
-function ClearButton() {
+function ClearButton({ setOutput }) {
   return (
     <>
-      <button className="clearButton">C</button>
+      <button
+        className="clearButton"
+        onClick={() => setOutput({ num1: "0", num2: "0", operator: "" })}
+      >
+        C
+      </button>
     </>
   );
 }
